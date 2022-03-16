@@ -13,4 +13,19 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "WanAndroid-Kotlin"
+
 include ':app'
+
+include ':business:home'
+include ':business:square'
+
+include ':export:home'
+include ':export:square'
+
+include ':function:pay'
+include ':function:share'
+
+include ':common'
+
+include ':base:network'
+include ':base:image'
